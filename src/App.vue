@@ -1,13 +1,17 @@
+<template >
+  <router-view/>
+  <app-footer/>
+</template>
 <script>
+import AppFooter from "@/components/AppFooter.vue"
+
 export default {
+  components:{
+
+    AppFooter,
+  }
 }
 </script>
-<template>
-<h1>Hello, Vue.js!</h1>
-</template>
-<style>
-.page {
-max-width: 400px;
-margin: auto;
-}
+<style >
+  
 </style>
