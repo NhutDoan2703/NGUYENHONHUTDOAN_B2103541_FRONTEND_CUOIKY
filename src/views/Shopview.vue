@@ -12,7 +12,10 @@
             <swiper-slide><img src="../assets/image/swiper2.jpg" /></swiper-slide>
             <swiper-slide><img src="../assets/image/swiper3.jpg" /></swiper-slide>
             </swiper>
-        </div>
+    </div>
+    <br/>
+    
+    <app-body/>
 
 </template>
 <script>
@@ -28,12 +31,14 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import AppBody from '../components/AppBody.vue';
 
 export default {
     components:{
         AppHeader,
         Swiper,
         SwiperSlide,
+        AppBody,
 
     },
     setup() {
