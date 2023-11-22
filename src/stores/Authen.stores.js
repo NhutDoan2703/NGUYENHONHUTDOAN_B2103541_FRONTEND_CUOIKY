@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import AuthService from "../services/Auth.service";
+import AuthenService from "../services/Authen.service.js"
 
 export const useAuthStore = defineStore("auth", {
 	state() {
@@ -24,7 +24,7 @@ export const useAuthStore = defineStore("auth", {
 			const response = await AuthService.createlogin(user);
 			if (!response.accessToken) {
 				this.logout();
-				throw new Error("Whoops, no access token found!");
+				throw new Error("Oops, no access token found!");
 			}
 			this.user = response;
 			localStorage.setItem("user", JSON.stringify(response));

@@ -7,6 +7,14 @@
       <ul class="header-nav header-nav-main nav nav-right  nav-size-xlarge nav-spacing-medium">
 
         <li>
+          
+          <a href="/Logup" class=" is-small">
+            <div>Đăng kí</div>
+          </a>
+      
+      </li>
+
+        <li>
           <a href="/Login" class="nav-top-link nav-top-not-logged-in is-small" >
             <i class="fa-solid fa-user " style="color: #ffffff;"></i>
           </a>
@@ -19,6 +27,8 @@
             </a>
         
         </li>
+
+        
         
       </ul>
 
@@ -29,7 +39,7 @@
 
   export default {
     components:{
-      
+
     }
 
     }

@@ -3,6 +3,7 @@ import Shopview from "@/views/Shopview.vue"
 import Cart from "@/views/Cart.vue"
 import Error from "@/components/Error.vue"
 import Login from "@/views/Login.vue"
+import Logup from "@/views/Logup.vue"
 import Home from "@/views/Home.vue"
 
 const routes = [
@@ -25,6 +26,11 @@ const routes = [
         path: "/Login",
         name: "Login",
         component: Login,
+    },
+    {
+        path: "/Logup",
+        name: "Logup",
+        component: Logup,
     },
 
     {

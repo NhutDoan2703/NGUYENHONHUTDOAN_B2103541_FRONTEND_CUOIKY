@@ -1,6 +1,6 @@
 <script>
 import AppHeader from '../components/AppHeader.vue';
-import CartService from '../services/Cart.service';
+import CartService from '../services/GlassesStores.service';
 import Notificationvue from '../components/Notification.vue'
 import Notificationjs from '../assets/js/Notification.js'
 import CartItem from "../components/CartItem.vue";
